@@ -1,0 +1,56 @@
+.Note {
+    position: relative;
+    width: 95%;
+    min-height: 100px;
+    margin: 2em auto;
+    color: #fff;
+    background: rgb(216, 154, 154);
+  }
+
+  .Note:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 16px 16px 0;
+    border-style: solid;
+    border-color: rgb(143, 82, 82) #fff;
+  }
+
+  .Note__delete {
+    background: rgb(216, 154, 154);
+    position: relative;
+    top: -20px;
+    left: 90%;
+    border: 0;
+    color: #fff;
+    font-size: 40px;
+  }
+  .Note__delete:hover {
+    color: #29862e;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .Note__title {
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    margin: 5px;
+    max-width: 80%;
+    min-height: 24px;
+  }
+  .Note__title a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+  }
+  .Note__title a:hover {
+    color: #29862e;
+  }
+  
+  .Note__dates {
+    bottom: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+  }

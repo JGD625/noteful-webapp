@@ -1,0 +1,60 @@
+.AddNote {
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Sofia', cursive;
+    font-size: 40px;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    margin: 15px 10px;
+}
+
+input {
+    margin: 0px 10px;
+}
+
+#note-name-input {
+    width: 15%;
+    font-size: 20px;
+    padding: 12px 20px;
+
+}
+
+#note-content-input {
+    min-width: 50%;
+    min-height: 200px;
+    margin: 0px 10px;
+}
+
+button {
+  font-family: 'Sofia', cursive;
+  background-color: rgb(216, 154, 154);
+  font-size: 20px;
+  padding: 10px 15px;
+  color: black;
+  border: 0px;
+  margin: 25px 10px;
+}
+
+button:disabled {
+    color: rgb(87, 87, 87);
+    background: rgb(252, 180, 180);
+  }
+
+   select {
+    width: 15%;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0px 10px;
+  }

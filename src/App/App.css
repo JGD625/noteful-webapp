@@ -1,0 +1,32 @@
+
+.App {
+  display: grid;
+  grid-template-areas: "sidebar header" "sidebar main";
+  grid-template-columns: .5fr 2.3fr;
+  grid-template-rows: 1fr 5fr;
+  min-height: 100vh;
+  max-height: 150vh;
+}
+
+.App__nav {
+  background-image: url("../images/leaves.png");
+  background-repeat: repeat;
+  color: #fff;
+  grid-area: sidebar;
+  overflow: auto;
+}
+
+.App__header {
+  grid-area: header;
+  padding-left: 16px;
+  padding-top: 32px;
+}
+
+
+
+.App__main {
+  background-color: #fff;
+  grid-area: main;
+  height: calc(100vh - 120px);
+  overflow: auto;
+}
