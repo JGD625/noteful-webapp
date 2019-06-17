@@ -50,7 +50,7 @@ handleSubmit= e => {
   const folder = {
     folder_name: e.target['folder-name'].value,
   }
-  fetch(`https://frozen-escarpment-37250.herokuapp.com/folders/`, {
+  fetch(`https://frozen-escarpment-37250.herokuapp.com/api/folders/`, {
     method: 'POST',
     headers: {
       'content-type': 'application/json'
