@@ -1,3 +1,11 @@
+# Noteful React App for Thinkful
+Live Site:
+https://noteful.jgd625.now.sh/
+
+Pairs with Noteful-Api: available on Heroku as https://polar-refuge-77764.herokuapp.com/
+
+
+
 # Create React App
 
 In this example we will be deploying a simple "Hello World" example with Create React App.
